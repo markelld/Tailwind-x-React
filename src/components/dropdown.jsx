@@ -5,7 +5,7 @@ const Dropdown = ({ isOpen, toggle }) => {
   return (
     <div      className={
       isOpen
-        ? 'grid grid-rows-4 text-center items-center' 
+        ? 'grid grid-rows-3 text-center items-center' 
         : 'hidden'
     }
     style={{background:"#EEEEEE"}}

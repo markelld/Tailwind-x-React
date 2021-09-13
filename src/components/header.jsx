@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Header = ({toggle}) => {
+
+const Header = ({ toggle }) => {
   return (
-    <nav className='flex justify-between items-center h-20 bg-white text-black relative shadow-sm font-dosis' role='navigation' style={{background:"#EEEEEE"}}>
+    <nav className='flex justify-between items-center h-20 bg-white text-white relative shadow-sm font-dosis' role='navigation' style={{background:"#0F1108"}}>
       <Link to="/">
         <div className='pl-8 cursor-pointer'>
           <h1 className="text-3xl font-bold">MD</h1>

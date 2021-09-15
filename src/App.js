@@ -5,8 +5,6 @@ import Layout from "./components/layout";
 import Home from "./screens/Home";
 import About from "./screens/About";
 import Contact from "./screens/Contact";
-import Photography from "./screens/Photography";
-import Projects from "./screens/Projects";
 
 function App() {
   return (
@@ -25,16 +23,6 @@ function App() {
         <Route path="/contact">
           <Layout>
             <Contact/>
-          </Layout>
-        </Route>
-        <Route path="/photography">
-          <Layout>
-            <Photography/>
-          </Layout>
-        </Route>
-        <Route path="/projects">
-          <Layout>
-            <Projects/>
           </Layout>
         </Route>
       </Switch>

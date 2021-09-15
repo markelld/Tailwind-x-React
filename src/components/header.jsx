@@ -33,7 +33,7 @@ const Header = ({ toggle }) => {
         <Link to='/contact' className='p-4'>
           Contact
         </Link>
-        <Link to='/photography' className='p-4'>
+        <Link to='/' className='p-4'>
           Photography
         </Link>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="h-32" style={{background:"#0F1108"}}>
 
     </div>
   )

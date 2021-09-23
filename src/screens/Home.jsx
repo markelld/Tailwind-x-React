@@ -1,5 +1,5 @@
 import React from "react";
-import{ Link } from "react-router-dom";
+// import{ Link } from "react-router-dom";
 import InfoCard from "../components/InfoCard";
 
 const Home = () => {
@@ -18,16 +18,17 @@ const Home = () => {
             {/* </Link> */}
             <InfoCard/>
           </div>
-          <div className="bg-white rounded-md shadow-md h-64 w-64"></div>
-          <div className="bg-white rounded-md shadow-md h-64 w-64"></div>
-          <div className="bg-white rounded-md shadow-md h-64 w-64"></div>
-          <div className="bg-white rounded-md shadow-md h-64 w-64"></div>
-          <div className="bg-white rounded-md shadow-md h-64 w-64"></div>
-          <div className="bg-white rounded-md shadow-md h-64 w-64"></div>
-          <div className="bg-white rounded-md shadow-md h-64 w-64"></div>
-          <div className="bg-white rounded-md shadow-md h-64 w-64"></div>
-          <div className="bg-white rounded-md shadow-md h-64 w-64"></div>
-          <div className="bg-white rounded-md shadow-md h-64 w-64"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
         </div>
       </div>
     </div>

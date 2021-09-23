@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const InfoCard = () => {
   return (
     <div className=" rounded-md bg-white  h-64 w-64 flex flex-wrap items-center  justify-center" style={{background:"#0F1108"}}>
@@ -10,21 +10,29 @@ const InfoCard = () => {
                 <div className="">
                        <div className="flex">
                         <div className="text-center w-1/2 p-4 cursor-pointer">
-                          
-                          <Link>
-                            <button className="py-3 px-3 text-white rounded-lg bg-red-400  hover:bg-red-700 shadow-lg block md:inline-block">Instagram</button>
-                          </Link>
+                          <a
+                          href="https://www.instagram.com/"
+                          target="_blank"
+                          alt=""
+                          >
+                            <button className="py-3 px-3 text-black rounded-lg bg-gray-50 hover:bg-gray-300 shadow-lg block md:inline-block">Instagram</button>
+                          </a>
                         </div>
                         <div className="border"></div>
                           <div className="text-center w-1/2 p-4 cursor-pointer"> 
-                          <Link>
-                            <button className="py-3 px-3 text-white rounded-lg bg-red-400  hover:bg-red-700 shadow-lg block md:inline-block">Portfolio</button>
-                          </Link>
-                        </div>
+                         <a
+                          href="https://markelldehaney.netlify.app/"
+                          target="_blank"
+                          alt=""
+                          >
+                            <button className="py-3 px-3 text-black rounded-lg bg-gray-50 hover:bg-gray-300  shadow-lg block md:inline-block">Portfolio</button>
+                          </a> 
+                          </div>
                     </div>
                 </div>
             </div>
         </div>
+                          
     
   )
 }

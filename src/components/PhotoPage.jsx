@@ -3,11 +3,11 @@ import React from "react";
 const PhotoPage = () => {
   return (
     <div className="flex justify-center min-h-full w-full bg-purple-500">
-      <div className="p-4 grid gap-4 w-full">
-        <div className="bg-white shadow-md h-96 w-full sm:w-1/3">
+      <div className="p-4 grid sm:grid-cols-2 gap-1 w-full">
+        <div className="bg-white shadow-md h-96 w-full">
           <h1>Loading</h1>
         </div>
-        <div className="bg-white shadow-md h-32 w-full sm:w-1/3">
+        <div className="bg-white shadow-md h-32 w-full">
           
         </div>
       </div>

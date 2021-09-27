@@ -21,7 +21,7 @@ const Home = () => {
           <Link to="/photopage">
             <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
            </Link>
-          <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
+          <div className="bg-white border-double border-4 border-black  shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
           <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
           <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>
           <div className="bg-white border-double border-4 border-black rounded-md shadow-md h-64 w-64 transform transition duration-500 hover:scale-110"></div>

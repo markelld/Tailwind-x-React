@@ -7,8 +7,10 @@ const PhotoPage = () => {
         <div className="bg-white shadow-md h-96 w-full">
           <h1>Loading</h1>
         </div>
-        <div className="bg-white shadow-md h-32 w-full">
-          
+        <div className="bg-white shadow-md h-32 w-1/2">
+          <h1>date</h1>
+          <h1>location</h1>
+          <h1>equipment</h1>
         </div>
       </div>
     </div>

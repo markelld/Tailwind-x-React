@@ -14,6 +14,7 @@ const InfoCard = () => {
                           href="https://www.instagram.com/"
                           target="_blank"
                           alt=""
+                          rel="noreferrer"
                           >
                             <button className="py-3 px-3 text-black rounded-lg bg-gray-50 hover:bg-gray-300 shadow-lg block md:inline-block">Instagram</button>
                           </a>
@@ -24,6 +25,7 @@ const InfoCard = () => {
                           href="https://markelldehaney.netlify.app/"
                           target="_blank"
                           alt=""
+                          rel="noreferrer"                
                           >
                             <button className="py-3 px-3 text-black rounded-lg bg-gray-50 hover:bg-gray-300  shadow-lg block md:inline-block">Portfolio</button>
                           </a> 
